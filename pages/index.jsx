@@ -18,9 +18,8 @@ const App = () => {
             </div>
 
             <div>
-              <h1 className="text-7xl font-bold tracking-tight mb-4 text-zinc-100">
+              <h1 className="text-7xl font-bold tracking-tight mb-4 text-zinc-100 gap-[20px] flex">
                 Sengedorj
-                <br />
                 <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 text-transparent bg-clip-text">
                   Ulziibayar
                 </span>
@@ -30,36 +29,36 @@ const App = () => {
                   Frontend and backend Developer
                 </p>
                 <p className="text-zinc-500">📍 Ulaanbaatar, Mongolia</p>
-              </div>
-              <div className="flex gap-4">
-                <a
-                  href="https://www.facebook.com/sengeenee.sengee"
-                  className="group flex items-center gap-2 bg-zinc-800 hover:bg-zinc-700 px-6 py-3 rounded-full transition-all duration-300 text-zinc-100"
-                >
-                  <span>Facebook</span>
-                  <span className="group-hover:translate-x-1 transition-transform">
-                    →
-                  </span>
-                </a>
-                <a
-                  target="blank"
-                  href="https://github.com/Sengedorj-123"
-                  className="group flex items-center gap-2 bg-zinc-800 hover:bg-zinc-700 px-6 py-3 rounded-full transition-all duration-300 text-zinc-100"
-                >
-                  <span>GitHub</span>
-                  <span className="group-hover:translate-x-1 transition-transform">
-                    →
-                  </span>
-                </a>
+                <div className="flex gap-4">
+                  <a
+                    href="https://www.facebook.com/sengeenee.sengee"
+                    className="group flex items-center gap-2 bg-zinc-800 hover:bg-zinc-700 px-6 py-3 rounded-full transition-all duration-300 text-zinc-100"
+                  >
+                    <span>Facebook</span>
+                    <span className="group-hover:translate-x-1 transition-transform">
+                      →
+                    </span>
+                  </a>
+                  <a
+                    target="blank"
+                    href="https://github.com/Sengedorj-123"
+                    className="group flex items-center gap-2 bg-zinc-800 hover:bg-zinc-700 px-6 py-3 rounded-full transition-all duration-300 text-zinc-100"
+                  >
+                    <span>GitHub</span>
+                    <span className="group-hover:translate-x-1 transition-transform">
+                      →
+                    </span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </section>
 
         <section className="mb-24">
-          <div className="max-w-2xl">
+          <div className="">
             <h2 className="text-3xl font-bold mb-6 text-zinc-100">About</h2>
-            <p className="text-zinc-400 leading-relaxed">
+            <p className="text-zinc-400 l ">
               Driven, skilled, and eager to excel, I bring a fresh perspective
               and an unwavering passion for growth. As my professional journey
               unfolds, my dedication to continuous learning and development sets
